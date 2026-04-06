@@ -45,6 +45,9 @@ video_batch_results.csv
 # Documentation (Ignore all)
 *.md
 documentation/
+!README.md
+!START_PROJECT.md
+!PROJECT_ARCHITECTURE.md
 
 # Specific Files
 LICENSE
