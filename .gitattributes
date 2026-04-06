@@ -1,0 +1,11 @@
+# Disable LFS for frontend UI assets in this repository.
+*.ico -filter -diff -merge text
+*.png -filter -diff -merge text
+*.jpg -filter -diff -merge text
+*.jpeg -filter -diff -merge text
+*.gif -filter -diff -merge text
+
+# Keep potential large model formats as normal git unless explicitly configured otherwise.
+*.safetensors -filter -diff -merge text
+*.pth -filter -diff -merge text
+*.pt -filter -diff -merge text
